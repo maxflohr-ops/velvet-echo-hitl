@@ -1,0 +1,25 @@
+{
+  "Campaigns": [
+    {
+      "id": "VE-001",
+      "name": "Velvet Echo - Desert Dusk",
+      "platform": "TikTok",
+      "target": "Indie ambient shoegaze",
+      "budget": 400,
+      "spend": 0,
+      "status": "draft"
+    },
+    {
+      "id": "VE-002",
+      "name": "Velvet Echo - Ocean Glow",
+      "platform": "TikTok",
+      "target": "Eco/nature vibes",
+      "budget": 400,
+      "spend": 0,
+      "status": "draft"
+    }
+  ],
+  "Drafts": [],
+  "Approvals": [],
+  "KPIs": []
+}
