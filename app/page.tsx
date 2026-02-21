@@ -13,16 +13,16 @@ export default function Dashboard() {
   }, []);
 
   return (
-    <div style={{ padding: 20 }}>
-      <h2>Dashboard</h2>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16 }}>
+    <div style={{ padding: 24 }}>
+      <h2 style={{ marginTop: 0, marginBottom: 24 }}>Dashboard</h2>
+      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 16, marginBottom: 32 }}>
         <DashboardCard title="Total Budget" value={stats?.budget ?? '—'} />
         <DashboardCard title="Current Spend" value={stats?.spend ?? '—'} />
       </div>
-      <div style={{ marginTop: 32 }}>
+      <div style={{ marginBottom: 32 }}>
         <DraftList />
       </div>
-      <div style={{ marginTop: 32 }}>
+      <div>
         <ApprovalsList />
       </div>
     </div>
