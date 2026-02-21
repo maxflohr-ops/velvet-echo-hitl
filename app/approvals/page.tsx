@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Approvals() {
   return (
     <div style={{ padding: 20 }}>
